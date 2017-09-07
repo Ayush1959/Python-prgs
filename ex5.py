@@ -1,18 +1,18 @@
-my_name = 'Ayush'
-my_age = 21
-my_height = 170 # cms
-my_weight = 65 # kgs
-my_eyes = 'Black'
-my_teeth = 'White'
-my_hair = 'Black'
+name = 'Ayush'
+age = 21
+height = 170 # cms
+weight = 65 # kgs
+eyes = 'Black'
+teeth = 'White'
+hair = 'Black'
 
 
-print(f"Let's talk about {my_name}.")
-print(f"He's {my_height} centimeters tall.")
-print(f"He's {my_weight} kilograms heavy.")
+print(f"Let's talk about {name}.")
+print(f"He's {height} centimeters tall.")
+print(f"He's {weight} kilograms heavy.")
 print("Actually that's not too heavy.")
-print(f"He's got {my_eyes} eyes and {my_hair} hair.")
-print(f"His teeth are usually {my_teeth} depending on the coffee.")
+print(f"He's got {eyes} eyes and {hair} hair.")
+print(f"His teeth are usually {teeth} depending on the coffee.")
 # this line is tricky, try to get it exactly right
-total = my_age + my_height + my_weight
-print(f"If I add {my_age}, {my_height}, and {my_weight} I get {total}.")
+total = age + height + weight
+print(f"If I add {age}, {height}, and {weight} I get {total}.")
