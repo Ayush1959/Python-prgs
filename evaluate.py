@@ -15,7 +15,7 @@ def evaluate (post_fix_string):
                     '%' : operator.mod,
                     '^' : operator.xor
                    }
-                z=ops[i](t,s)
+                z=ops[i](s,t)
                 l.append(z)
         except IndexError:
                     print ("Expression Error")
